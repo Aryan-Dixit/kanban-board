@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.board {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.column {
+  flex: 1;
+  min-height: 300px;
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.ticket {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: grab;
+  border: 1px solid #ddd;
+}
+
+.form {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 8px;
+}
